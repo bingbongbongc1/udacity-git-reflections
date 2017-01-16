@@ -10,13 +10,23 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	by using git add file name, git diff to check differences between working directory and staging area, git diff —-stage to check differences between staging area and last commit, and git diff commit id1 id2 to compare different commits.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	branches let you test out new features or create a different version without changing the master.
+
 How do the diagrams help you visualize the branch structure?
+
+	it helps me realize which commit is on which branch and if there are any one off commits that are not part of any branches.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	a new commit is created that combines both branches and merge all of the commits
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+	
+	auto is easier and it is right 95% of the time and it will tell you if there is conflict. manual is time consuming but more likely to avoid conflicts.
